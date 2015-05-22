@@ -14,6 +14,7 @@
 		C2BA8BA01B0EBDC100F0F861 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2BA8B9F1B0EBDC100F0F861 /* Images.xcassets */; };
 		C2BA8BA31B0EBDC100F0F861 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2BA8BA11B0EBDC100F0F861 /* LaunchScreen.xib */; };
 		C2BA8BAF1B0EBDC100F0F861 /* jianwenatianxiaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BA8BAE1B0EBDC100F0F861 /* jianwenatianxiaTests.m */; };
+		C2BA8BBA1B0EBF3C00F0F861 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BA8BB91B0EBF3C00F0F861 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C2BA8BA81B0EBDC100F0F861 /* jianwenatianxiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jianwenatianxiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2BA8BAD1B0EBDC100F0F861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2BA8BAE1B0EBDC100F0F861 /* jianwenatianxiaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jianwenatianxiaTests.m; sourceTree = "<group>"; };
+		C2BA8BB81B0EBF3C00F0F861 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C2BA8BB91B0EBF3C00F0F861 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				C2BA8B961B0EBDC100F0F861 /* AppDelegate.h */,
 				C2BA8B971B0EBDC100F0F861 /* AppDelegate.m */,
 				C2BA8B991B0EBDC100F0F861 /* ViewController.h */,
+				C2BA8BB81B0EBF3C00F0F861 /* RootViewController.h */,
+				C2BA8BB91B0EBF3C00F0F861 /* RootViewController.m */,
 				C2BA8B9A1B0EBDC100F0F861 /* ViewController.m */,
 				C2BA8B9C1B0EBDC100F0F861 /* Main.storyboard */,
 				C2BA8B9F1B0EBDC100F0F861 /* Images.xcassets */,
@@ -221,6 +226,7 @@
 			files = (
 				C2BA8B9B1B0EBDC100F0F861 /* ViewController.m in Sources */,
 				C2BA8B981B0EBDC100F0F861 /* AppDelegate.m in Sources */,
+				C2BA8BBA1B0EBF3C00F0F861 /* RootViewController.m in Sources */,
 				C2BA8B951B0EBDC100F0F861 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +420,7 @@
 				C2BA8BB41B0EBDC100F0F861 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2BA8BB51B0EBDC100F0F861 /* Build configuration list for PBXNativeTarget "jianwenatianxiaTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				C2BA8BB71B0EBDC100F0F861 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
